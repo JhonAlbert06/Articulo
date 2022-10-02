@@ -1,8 +1,16 @@
+using Microsoft.EntityFrameworkCore;
+using Articulo.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+builder.Services.AddDbContext<Contexto>(options => 
+    options.UseSqlite(builder.Configuration.GetConnectionString("ConStr"))    
+);
 
 var app = builder.Build();
 
