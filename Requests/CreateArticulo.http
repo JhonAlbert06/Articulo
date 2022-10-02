@@ -1,0 +1,10 @@
+POST https://localhost:7106/api/Articulos
+Content-Type: application/json
+
+{
+    "ariticuloId": "10",
+    "descripcion": "Laptop",
+    "marca": "Dell Inspiron15",
+    "precio": "53000.00",
+    "existencia": "10.00"
+}

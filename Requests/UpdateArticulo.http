@@ -1,0 +1,10 @@
+PUT https://localhost:7106/api/Articulos
+Content-Type: application/json
+
+{
+    "ariticuloId": "1",
+    "descripcion": "Cuaderno",
+    "marca": "Apolo",
+    "precio": "55.00",
+    "existencia": "200.00"
+}
