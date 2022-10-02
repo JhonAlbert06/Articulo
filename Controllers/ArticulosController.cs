@@ -6,7 +6,7 @@ using Articulo.Models;
 namespace Articulo.Controllers;
 
 [ApiController]
-[Route("api/controller")]
+[Route("api/[controller]")]
 
 public class ArticulosController : Controller
 {
