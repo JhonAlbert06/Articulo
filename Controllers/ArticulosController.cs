@@ -21,8 +21,8 @@ public class ArticulosController : Controller
     [HttpGet]
     [Route("")]
     public async Task<ActionResult<List<Articulos>>> GetArticulos()
-    {
-        return await _contexto.Articulos.ToListAsync();
+    {//await
+        return  _contexto.Articulos.ToListAsync();
     }
 
     // GET: api/Articulos/5
