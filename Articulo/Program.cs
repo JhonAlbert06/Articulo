@@ -12,6 +12,8 @@ builder.Services.AddDbContext<Contexto>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("ConStr"))    
 );
 
+builder.Services.AddScoped<Contexto, Contexto>();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
