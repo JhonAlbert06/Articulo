@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rXHslNoBKannwQj6FiXGDNB+g9trcODfU2ixohokNOP9sa/n5Ozry2+QGSosjFsQ7n7i+PkJUVKIqzQIdOxOSQ==",
+  "dgSpecHash": "eJ51sCFgL8w9PuIa029cXtC7zqbO++3Ey4mBsHC0WZYlNQ8K/obokEa2E76jC/7Iw2IDqdGDZ8A7GDGKYqm7Ew==",
   "success": true,
-  "projectFilePath": "/home/jhon/Documents/Pruebas/Articulo/Articulo/Articulo.csproj",
+  "projectFilePath": "/home/jhon/Documents/Pruebas/Articulo/Articulo.csproj",
   "expectedPackageFiles": [
     "/home/jhon/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/jhon/.nuget/packages/microsoft.data.sqlite/6.0.9/microsoft.data.sqlite.6.0.9.nupkg.sha512",

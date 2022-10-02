@@ -1,4 +1,4 @@
 
-Articulo/obj/**
-Articulo/bin/**
+obj/**
+bin/**
 .vscode/**

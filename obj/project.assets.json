@@ -1503,11 +1503,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jhon/Documents/Pruebas/Articulo/Articulo/Articulo.csproj",
+      "projectUniqueName": "/home/jhon/Documents/Pruebas/Articulo/Articulo.csproj",
       "projectName": "Articulo",
-      "projectPath": "/home/jhon/Documents/Pruebas/Articulo/Articulo/Articulo.csproj",
+      "projectPath": "/home/jhon/Documents/Pruebas/Articulo/Articulo.csproj",
       "packagesPath": "/home/jhon/.nuget/packages/",
-      "outputPath": "/home/jhon/Documents/Pruebas/Articulo/Articulo/obj/",
+      "outputPath": "/home/jhon/Documents/Pruebas/Articulo/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/jhon/.nuget/NuGet/NuGet.Config"
