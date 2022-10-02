@@ -9,7 +9,7 @@ builder.Services.AddSwaggerGen();
 
 
 builder.Services.AddDbContext<Contexto>(options => 
-    options.UseSqlite(builder.Configuration.GetConnectionString("ConStr"))    
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ConStr"))    
 );
 
 builder.Services.AddScoped<Contexto, Contexto>();
