@@ -2,9 +2,9 @@ GET  https://localhost:7106/api/Articulos
 Content-Type: application/json
 
 {
-    "ariticuloId": "10",
-    "descripcion": "Laptop",
-    "marca": "Dell Inspiron15",
+    "ariticuloId": "1",
+    "descripcion": "Redmi Note 8",
+    "marca": "Xiaomi",
     "precio": "53000.00",
     "existencia": "10.00"
 }

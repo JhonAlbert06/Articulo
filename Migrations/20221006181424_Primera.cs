@@ -12,12 +12,12 @@ namespace Articulo.Migrations
                 name: "Articulos",
                 columns: table => new
                 {
-                    AriticuloId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Marca = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Precio = table.Column<double>(type: "float", nullable: false),
-                    Existencia = table.Column<double>(type: "float", nullable: false)
+                    AriticuloId = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Descripcion = table.Column<string>(type: "TEXT", nullable: false),
+                    Marca = table.Column<string>(type: "TEXT", nullable: false),
+                    Precio = table.Column<double>(type: "REAL", nullable: false),
+                    Existencia = table.Column<double>(type: "REAL", nullable: false)
                 },
                 constraints: table =>
                 {
