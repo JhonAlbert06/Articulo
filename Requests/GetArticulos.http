@@ -1,1 +1,4 @@
+
+//GET http://www.articulosapi.somee.com/api/Articulos
+
 GET  https://localhost:7106/api/Articulos/
