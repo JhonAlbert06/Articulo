@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Articulo.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20221005234022_Primera")]
+    [Migration("20221006002638_Primera")]
     partial class Primera
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
