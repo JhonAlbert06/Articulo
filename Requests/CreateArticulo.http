@@ -1,10 +1,11 @@
-POST   https://localhost:7106/api/Articulos/
-Content-Type: application/json
+//POST   https://localhost:7106/api/Articulos/
+POST http://www.articulosapi.somee.com/api/Articulos
 
+Content-Type: application/json
 {
-    "ariticuloId": 2,
-    "descripcion": "Redmi Note 8",
-    "marca": "Xiaomi",
-    "precio": 53000.00,
-    "existencia": 10.00
+  "ariticuloId": 0,
+  "descripcion": "PC Desktop",
+  "marca": "Dell",
+  "precio": 9000,
+  "existencia": 50
 }
